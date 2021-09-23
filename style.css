@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+body{
+   
+    background-color:whitesmoke ;
+}
+
+
+#txt-area{
+    
+    box-sizing: border-box;
+    display: block;
+    width: 50%;
+    margin-top: 4rem;
+    margin-left: 22%;
+    padding: 2rem 2rem;
+    font-family: 'Ephesis', cursive;    font-size: large;
+    font-weight:bold;
+    font-size:xx-large;
+    background-color: #ffff38 ;
+
+   
+}
+h1{
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Ephesis', cursive;
+    margin: 0rem 0rem;
+    padding: 2rem 2rem;
+    background-color: yellowgreen;
+    border-radius: 0.5rem;
+    color: yellow;
+
+}
+h2{
+   
+    font-family: 'Ephesis', cursive;
+    margin-left: 28%;
+    padding: 2rem 2rem;
+
+    border-radius: 0.5rem;
+    color: black;
+
+
+}
+
+#minion{
+   
+   
+    margin-left:  38%;
+    padding: 2rem 2rem;
+
+   
+
+
+}
+#btn-translate{
+    
+    font-size: 200%;
+    font-weight: bold;
+    font-family: 'Ephesis',cursive;
+    margin-top: 2rem;
+    margin-left: 40%;
+    padding: 1.0rem 1.5rem;
+    border-radius: 0.5rem;
+    
+    color:yellow;
+    background-color: yellowgreen;
+}
+#txt-area-output{
+    box-sizing: border-box;
+    display: block;
+    width: 50%;
+    margin-top: 1rem;
+    margin-left: 22%;
+    padding: 2rem 2rem;
+    font-family: 'Ephesis', cursive;    font-size: large;
+    font-weight:bold;
+    font-size:xx-large;
+    background-color: #ffff38;
+    
+ 
+
+}
+
+footer{
+    font-weight: lighter;
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Ephesis', cursive;
+    margin: 0.5rem 0rem;
+    padding: 0rem 0.5rem;
+    background-color: yellowgreen;
+    border-radius: 0.5rem;
+    color:yellow;
+    text-decoration: underline;
+
+}

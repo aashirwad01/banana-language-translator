@@ -23,10 +23,6 @@ function btnClicked(){
     .catch(() => alert("error happended"))
 }
 
-// function constructURL(inputText) {
-//     var encodedURI = encodeURI(inputText);
-//     return `${url}?text=${encodedURI}`;
-// }
 
 
 
