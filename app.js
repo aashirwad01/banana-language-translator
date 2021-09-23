@@ -5,18 +5,28 @@ var txtAreaOutput=document.querySelector("#txt-area-output");
 
 var translatebtn=document.querySelector("#btn-translate");
 translatebtn.addEventListener("click",btnClicked);
-url="https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
+var url="https://api.funtranslations.com/translate/minion.json"
+
 function urlgenerator(url,text){
-    return url+"?text="+text;}
+    var encodedURI=encodeURI(text);
+    return `${url}?text=${encodedURI}`;}
 
 function btnClicked(){
     
     var inputvalue=txtArea.value;
+    var finalURL=urlgenerator(url,inputvalue);
+    console.log(finalURL);
     
-    fetch(urlgenerator(url,inputvalue))
+    fetch(finalURL)
     .then( response => response.json())
-    .then( json => {txtAreaOutput.innerText=json.contents.translated});
+    .then( json => {txtAreaOutput.innerText=json.contents.translated})
+    .catch(() => alert("error happended"))
 }
+
+// function constructURL(inputText) {
+//     var encodedURI = encodeURI(inputText);
+//     return `${url}?text=${encodedURI}`;
+// }
 
 
 
