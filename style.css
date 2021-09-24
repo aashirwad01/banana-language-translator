@@ -5,14 +5,16 @@ body{
     background-color:whitesmoke ;
 }
 
+.txt-1{
+    text-align: center;
+}
 
 #txt-area{
     
     box-sizing: border-box;
-    display: block;
-    width: 50%;
-    margin-top: 4rem;
-    margin-left: 22%;
+   
+    min-width: 50%;
+    margin: 2rem 0rem;
     padding: 2rem 2rem;
     font-family: 'Ephesis', cursive;    font-size: large;
     font-weight:bold;
@@ -21,21 +23,22 @@ body{
 
    
 }
-h1{
-    font-size: xx-large;
-    text-align: center;
-    font-family: 'Ephesis', cursive;
+
+nav{
     margin: 0rem 0rem;
     padding: 2rem 2rem;
+    font-size: xx-large;
+    text-align: center;
     background-color: yellowgreen;
     border-radius: 0.5rem;
     color: yellow;
-
+    font-family: 'Ephesis', cursive;
 }
+
 h2{
    
     font-family: 'Ephesis', cursive;
-    margin-left: 20%;
+   
     padding: 2rem 2rem;
 
     border-radius: 0.5rem;
@@ -43,43 +46,54 @@ h2{
 
 
 }
+.wrapper-pic{
+    margin: 0rem 0rem;
+    text-align: center;
+}
 
 #minion{
-   
-   
-    margin-left:  28%;
     padding: 2rem 2rem;
-
-   
-
-
 }
+
+.wrapper-text{
+    margin: 0rem 0rem;
+    text-align: center;
+}
+
+.wrapper-btn{
+    margin: 0rem 0rem;
+    text-align: center;
+}
+
 #btn-translate{
     
+    position: relative;
     font-size: 200%;
     font-weight: bold;
     font-family: 'Ephesis',cursive;
-    margin-top: 2rem;
-    margin-left: 30%;
+    
     padding: 1.0rem 1.5rem;
     border-radius: 0.5rem;
     
     color:yellow;
     background-color: yellowgreen;
 }
+
+.txt-2{
+    text-align: center;
+}
+
+
 #txt-area-output{
     box-sizing: border-box;
-    display: block;
-    width: 50%;
-    margin-top: 1rem;
-    margin-left: 22%;
+   
+    min-width: 50%;
+    margin: 2rem 0rem;
     padding: 2rem 2rem;
     font-family: 'Ephesis', cursive;    font-size: large;
     font-weight:bold;
     font-size:xx-large;
-    background-color: #ffff38;
-    
- 
+    background-color: #ffff38 ;
 
 }
 
