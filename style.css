@@ -2,6 +2,7 @@
 
 body{
    
+    margin: 0rem 0rem;
     background-color:whitesmoke ;
 }
 
@@ -14,7 +15,7 @@ body{
     box-sizing: border-box;
    
     min-width: 50%;
-    margin: 2rem 0rem;
+    margin: 1rem 0rem;
     padding: 2rem 2rem;
     font-family: 'Ephesis', cursive;    font-size: large;
     font-weight:bold;
@@ -26,10 +27,10 @@ body{
 
 nav{
     margin: 0rem 0rem;
-    padding: 2rem 2rem;
+    padding: 0rem 0rem;
     font-size: xx-large;
     text-align: center;
-    background-color: yellowgreen;
+    background-color: green;
     border-radius: 0.5rem;
     color: yellow;
     font-family: 'Ephesis', cursive;
@@ -39,10 +40,12 @@ h2{
    
     font-family: 'Ephesis', cursive;
    
-    padding: 2rem 2rem;
+    padding: 0rem 2rem;
 
     border-radius: 0.5rem;
     color: black;
+    /*  */
+
 
 
 }
@@ -76,7 +79,7 @@ h2{
     border-radius: 0.5rem;
     
     color:yellow;
-    background-color: yellowgreen;
+    background-color: green;
 }
 
 .txt-2{
@@ -102,9 +105,9 @@ footer{
     font-size: xx-large;
     text-align: center;
     font-family: 'Ephesis', cursive;
-    margin: 0.5rem 0rem;
+    margin: 1rem 0rem;
     padding: 0rem 0.5rem;
-    background-color: yellowgreen;
+    background-color: green;
     border-radius: 0.5rem;
     color:yellow;
     text-decoration: underline;
